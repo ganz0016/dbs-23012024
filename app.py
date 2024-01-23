@@ -11,4 +11,4 @@ def index():
         return(render_template("index.html",result ="waiting for exchange rate..."))
     
 if __name__ == "__main__": ## main is to double confirm you are running the prog
-    app.run()\
+    app.run()
